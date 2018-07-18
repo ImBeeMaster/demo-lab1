@@ -1,0 +1,5 @@
+JenkinsPass.txt
+*console.log
+.vagrant/
+/demo-0.0.19-SNAPSHOT.jar
+/java1_image

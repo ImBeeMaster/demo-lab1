@@ -13,11 +13,7 @@ sudo usermod -aG docker ${USER}
 
 
 #Install Java
-<<<<<<< HEAD
 sudo apt-get -y install openjdk-8-jdk > /dev/null 2>&1
-=======
-sudo apt-get install openjdk-8-jdk > /dev/null 2>&1
->>>>>>> 2d97a0bccf4f74433d00100816b3a071a88ab5ac
 
 # Docker Compose
 
