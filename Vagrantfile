@@ -17,6 +17,10 @@ Vagrant.configure("2") do |config|
       box.vm.provision "jenkins_provision", type: "shell" do |j|
           j.path = "provision.sh"
       end
+      box.vm.provision "ssh provision", true: shell do |s|
+        s.path = "ssh-provision"
+        s.run = "always"
+      end
 
       box.vm.provision "docker" do |d|
         d.run "registry:2",
