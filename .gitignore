@@ -3,3 +3,5 @@ JenkinsPass.txt
 .vagrant/
 /demo-0.0.19-SNAPSHOT.jar
 /java1_image
+id_rsa
+id_rsa.pub
